@@ -1,0 +1,11 @@
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: slateblue;
+    background-color: chartreuse;
+}
+p{
+    font-size: 50px;
+    font-stretch: semi-condensed;
+    color: violet;
+    background-color: aqua;
+}

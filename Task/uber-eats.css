@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+.col-md-50{
+    width: 50%;
+    float: left;
+}
+.col-md-33{
+    width: 33.33%;
+    float: left;
+}
+.header img {
+    width: 25px;
+}
+button {
+    width: 45px;
+    background-color: white;
+    border: none;
+}
+.image {
+    float: left;
+    padding: 0px 40px 0px 0px;
+}
+.parent img{
+    width: 25px;
+}
+.parent-button {
+    float: right;
+}
+.button-1 {
+    width: 100px;
+    height: 40px;
+    margin: 0px 10px 0px 0px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    background-color: white;
+    box-shadow: 0px 0px 2px;
+}
+.button-2 {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    background-color:black;
+    color:white;
+    
+}
+p {
+    font-size: 25px;
+    margin: 0px 0px 0px 0px;
+    font-family: UberMoveText, sans-serif;
+    font-weight: 600;
+}
+.parent {
+    height: 50px;
+    padding: 15px 60px 15px 60px;
+    height: 70px;
+}
+.main-section-start {
+    background-image: url(../images/uber-main-img.png);
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 575px;
+    width: 100%;
+}
+.image-main-text {
+    font-size: 55px;
+    font-weight: 700;
+    padding: 175px 40px 35px;
+    font-family: UberMove, sans-serif;
+}
+input[type="location"] {
+    width: 580px;
+    height: 55px;
+    border: none;
+    float: left;
+    padding: 0px 0px 0px 76px;
+    font-size: 16px;
+}
+svg {
+    position: absolute;
+    margin: 13px 0px 0px 21px;
+}
+.placeholder-parent {
+    margin: 0px 0px 0px 40px;
+}
+select#delivery\ option {
+    height: 55px;
+    width: 200px;
+    padding: 0px 40px 0px 56px;
+    font-size: 16px;
+    margin: 0px 0px 0px 10px;
+    border: none;
+}
+.button-3 {
+    width: 120px;
+    height: 57px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 0px 0px 0px 5px;
+    font-size: 18px;
+}
+.button-3:hover {
+    background-color: #333333;
+}
+.href-main {
+    font-family: UberMoveText, sans-serif;
+    padding: 25px 0px 0px 40px;
+    font-size: 14px;
+}
+.href-main a {
+    color: black;
+    padding: 0px 5px 0px 0px;
+    font-size: 14px;
+}
+svg.weertyy {
+    width: 20px;
+    float: left;
+}
+.ptag {
+    padding: 10px 0px 0px 90px;
+}
+.button-1:hover {
+    background-color: #cccccc;
+}
+.button-2:hover {
+    background-color: #333333;
+}
+.grid-parent img {
+    width: 100%;
+    height: 211px;
+    margin-top: 100px;
+}
+.img-text-perent {
+    font-size: 28px;
+    font-family: UberMove, sans-serif;
+}
+.img-text-perent {
+    padding: 15px;
+    font-size: 28px;
+    font-weight: 100;
+    font-family: UberMoveText, sans-serif;
+}
+.img-text-perent a {
+    font-size: 16px;
+    color: black;
+    font-family: UberMoveText, sans-serif;
+}
+.button-log-in {
+    padding: 0px 0px 0px 15px;
+}
+svg.button-svg {
+    margin: 0px 0px 0px -40px;
+    width: 18px;
+}

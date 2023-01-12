@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Css</title>
+    <style>
+        .border{
+            border: 10px solid blueviolet;
+            height: 100px;
+        }
+        .border-dotted { border: 20px dotted green; }
+        .border-dashed { border: 15px dashed olive; height: 100px;  }
+        .border-double { border: 15px double rgb(153, 102, 51); height: 100px; }
+        .border-groove { border: 15px groove rgb(8, 22, 131); }
+        .border-ridge { border: 15px ridge rgb(51, 150, 153); }
+        .border-inset { border: 15px inset rgb(17, 104, 36); }
+        .border-outset { border: 15px outset rgb(113, 18, 18); }
+        .border-right-bottom{
+            border-bottom: 2px solid grey;
+            border-right: 2px solid rgb(0, 44, 93);
+        }
+        .border-radi{
+            border: 15px outset rgb(113, 18, 18);
+            border-radius: 5px;
+        }
+        .circle-using-border{
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+            background-color: slateblue;
+            border-radius: 50%;
+            background-image: url(../images/image-3.jpg);
+            background-repeat: no-repeat;
+
+        }
+        .border-effect-2{
+            width: 200px;
+            height: 100px;
+            display: inline-block;
+            background-color: rgb(2, 84, 95);
+            border-radius: 50px 0px;
+        }
+        .img{
+            width: 500px;
+            height: 450px;
+        }
+        img{
+            width: 100%;
+            /* overflow: hidden; */
+        }
+        .bordertest{
+            /* border: 10px dashed orange; */
+            /* border: 10px dotted rgb(0, 255, 64); */
+            border: 10px groove rgb(0, 153, 255);
+            height: 500px;
+            width: 500px;
+            border-radius: 50%;
+        }
+        .border-12345{
+            background-image: url(../images/image-3.jpg);
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            
+        }
+        .v-123456{
+            background-image: url(../images/254990ef02121c6019114df770cc0937bdf6b083-2880x1196.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            border: 1px solid;
+            height: 500px;
+            border-radius: 50%;
+            width: 500px;
+            margin: auto;
+            background-size: contain;
+        }
+        .col-md-12{
+            width: 100%;
+        }
+        .col-md-3{
+            width: 33.33%;
+            float: left;
+        }
+        .bg{
+            background-image: url(../images/image-4\ -\ Copy.jpg);
+            background-size: 700px;
+            background-attachment: fixed;
+            background-position: top;
+            height: 450px;
+            width: 450px;
+            border: 1px solid white;
+            border-radius: 50%;
+            box-shadow: 4px 6px 6px 8px silver;
+        }
+        .bg-1{
+            background-image: url(../images/image-4\ -\ Copy.jpg);
+            background-size: 700px;
+            background-attachment: fixed;
+            background-position: top;
+            height: 450px;
+            width: 450px;
+            border: 1px solid white;
+            border-radius: 50%;
+            margin: 0 auto;
+            box-shadow: 4px 6px 6px 8px silver;
+        }
+        .bg-2{
+            background-image: url(../images/image-4\ -\ Copy.jpg);
+            background-size: 700px;
+            background-attachment: fixed;
+            background-position: top;
+            height: 450px;
+            width: 450px;
+            border: 1px solid white;
+            border-radius: 50%;
+            margin: auto;
+            box-shadow: 4px 6px 6px 8px silver;
+           
+            
+        }
+        marquee {
+            margin: 200px 0px 0px 0px;
+            font-size: 50px;
+            color: palegreen;
+            text-shadow: 5px -2px 1px green;
+            text-transform: capitalize;
+        }
+        
+    </style>
+</head>
+<body>
+    <ul>
+        <li> border-style: none;</li>
+        <li> border-style: hidden;</li>
+        <li> border-style: dotted;</li>
+        <li> border-style: dashed;</li>
+        <li> border-style: solid;</li>
+        <li> border-style: double;</li>
+        <li> border-style: groove;</li>
+        <li> border-style: ridge;</li>
+        <li> border-style: inset;</li>
+        <li> border-style: outset;</li>
+    </ul>
+    <div class="border">test</div>
+    <div class="border-dotted">border-dotted</div>
+    <div class="border-dashed">border-dashed</div>
+    <div class="border-double">border-double</div>
+    <div class="border-groove">border-groove</div>
+    <div class="border-ridge">border-ridge</div>
+    <div class="border-inset">border-inset</div>
+    <div class="border-outset">border-outset</div>
+    <div class="border-right-bottom">border-effect</div>
+    <div class="border-radi">border-radi</div>
+    <div class="circle-using-border">circle</div>
+    <div class="border-effect-2">circle</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="circle-using-border img"></div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <blockquote>
+    <div class="col-md-12">
+        <div class="col-md-3">
+            <div class="bg"><marquee behavior="scroll" direction="right">Vishu</marquee></div>
+        </div>
+        <div class="col-md-3">
+            <div class="bg-1"><marquee behavior="scroll" direction="right">Vishu Raulji</marquee></div>
+        </div>
+        <div class="col-md-3">
+            <div class="bg-2"><marquee behavior="scroll" direction="right">Raulji</marquee></div>
+        </div>
+    </div>
+    </blockquote>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    
+       
+        <div class="v-123456">
+            
+        </div>
+        <div class="border-12345">
+    <blockquote>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis ex sint animi minus cum sed, commodi reiciendis vel quasi alias asperiores soluta assumenda quod nisi reprehenderit quibusdam. Consectetur, asperiores similique.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae impedit rem aliquid et, earum officia, quasi consequatur voluptatibus porro aut ad expedita? Necessitatibus et ab illum, asperiores iusto eligendi sint?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis ex sint animi minus cum sed, commodi reiciendis vel quasi alias asperiores soluta assumenda quod nisi reprehenderit quibusdam. Consectetur, asperiores similique.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae impedit rem aliquid et, earum officia, quasi consequatur voluptatibus porro aut ad expedita? Necessitatibus et ab illum, asperiores iusto eligendi sint?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis ex sint animi minus cum sed, commodi reiciendis vel quasi alias asperiores soluta assumenda quod nisi reprehenderit quibusdam. Consectetur, asperiores similique.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae impedit rem aliquid et, earum officia, quasi consequatur voluptatibus porro aut ad expedita? Necessitatibus et ab illum, asperiores iusto eligendi sint?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis ex sint animi minus cum sed, commodi reiciendis vel quasi alias asperiores soluta assumenda quod nisi reprehenderit quibusdam. Consectetur, asperiores similique.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae impedit rem aliquid et, earum officia, quasi consequatur voluptatibus porro aut ad expedita? Necessitatibus et ab illum, asperiores iusto eligendi sint?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis ex sint animi minus cum sed, commodi reiciendis vel quasi alias asperiores soluta assumenda quod nisi reprehenderit quibusdam. Consectetur, asperiores similique.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae impedit rem aliquid et, earum officia, quasi consequatur voluptatibus porro aut ad expedita? Necessitatibus et ab illum, asperiores iusto eligendi sint?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis ex sint animi minus cum sed, commodi reiciendis vel quasi alias asperiores soluta assumenda quod nisi reprehenderit quibusdam. Consectetur, asperiores similique.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae impedit rem aliquid et, earum officia, quasi consequatur voluptatibus porro aut ad expedita? Necessitatibus et ab illum, asperiores iusto eligendi sint?</p>
+    </blockquote>    
+    </div>
+    
+</body>
+</html>
